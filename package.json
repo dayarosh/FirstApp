@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "name": "firstapp",
+  "version": "1.0.0",
+  "description": "Learning Node Js",
+  "main": "app.js",
+  "scripts": {
+    "serve": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
