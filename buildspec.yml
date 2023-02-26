@@ -16,11 +16,5 @@ phases:
   post_build:
     commands:
       - echo  "... Build completed"
-  artifacts:
-    typee: zip
-    files:
-      - '**/*'
-  cache:
-    paths:
-      - node_modules
+  
       
