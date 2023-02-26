@@ -5,17 +5,18 @@ phases:
     runtime-versions:
       nodejs: 16
     commands:
+      - echo "Executing npm install"
       - npm install
   pre_build:
     commands:
-      - echo Installing source NPM dependencies...
+      - echo "Installing source NPM dependencies..."
   build:
     commands:
-      - echo Build started on `date`
-      -npm run
+      - echo "Build started..."
+      - npm run
   post-build:
     commands:
-      - echo  Build completed on `date`
+      - echo  "...Build completed"
   artifacts:
     typee: zip
     files:
