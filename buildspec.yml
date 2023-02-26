@@ -14,7 +14,7 @@ phases:
     commands:
       - echo "Build started..."
       - npm run
-  post-build:
+  post_build:
     commands:
       - echo  "... Build completed"
   artifacts:
