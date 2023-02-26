@@ -16,7 +16,7 @@ phases:
       - npm run
   post-build:
     commands:
-      - echo  "...Build completed"
+      - echo  "... Build completed"
   artifacts:
     typee: zip
     files:
